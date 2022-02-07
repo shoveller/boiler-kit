@@ -1,5 +1,4 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   // static file 압축 활성화
   compress: true,
   // react.js의 strict모드 활성화
@@ -11,5 +10,3 @@ const nextConfig = {
   // build indicator 표시 위치를 지정
   buildActivityPosition: 'bottom-right',
 }
-
-module.exports = nextConfig
