@@ -1,3 +1,3 @@
-module.export = {
-  extends: ['@shoveller/eslint-config'],
+module.exports = {
+  // extends: ['@shoveller/eslint-config'],
 }
