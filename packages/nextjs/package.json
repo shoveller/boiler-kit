@@ -11,17 +11,18 @@
   },
   "dependencies": {
     "next": "12.0.10",
+    "next-i18next": "^10.2.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.17.0",
-    "@shoveller/eslint-config": "^0.0.3",
-    "@shoveller/prettier-config": "^0.0.3",
+    "@shoveller/eslint-config": "^0.0.4",
+    "@shoveller/prettier-config": "^0.0.4",
     "@storybook/addon-actions": "^6.4.18",
+    "@storybook/addon-docs": "^6.4.18",
     "@storybook/addon-essentials": "^6.4.18",
     "@storybook/addon-links": "^6.4.18",
-    "@storybook/addon-docs": "^6.4.18",
     "@storybook/builder-webpack5": "^6.4.18",
     "@storybook/manager-webpack5": "^6.4.18",
     "@storybook/react": "^6.4.18",

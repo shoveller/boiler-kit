@@ -1,3 +1,3 @@
 module.exports = {
-  // extends: ['@shoveller/eslint-config'],
+  extends: ['next/core-web-vitals'],
 }
