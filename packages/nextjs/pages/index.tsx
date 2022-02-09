@@ -4,21 +4,15 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { GetServerSidePropsContext } from 'next/types'
 import i18nConfig from '../next-i18next.config'
 
-import styles from '../styles/Home.module.css'
-
 const TranslationTest = () => {
   const { t } = useTranslation()
-  const label = t('greeting')
+  const label = t('home')
 
   return <div>{label}</div>
 }
 
-const Home: NextPage = () => {
-  return (
-    <div className={styles.container}>
-      <TranslationTest />
-    </div>
-  )
+const Index: NextPage = () => {
+  return <TranslationTest />
 }
 
 export const getServerSideProps = async ({
@@ -32,4 +26,4 @@ export const getServerSideProps = async ({
     },
   }
 }
-export default Home
+export default Index
