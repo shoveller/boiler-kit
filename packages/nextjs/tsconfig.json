@@ -21,7 +21,9 @@
       "@/pages/*": ["pages/*"],
       "@/public/*": ["public/*"],
       "@/stories/*": ["stories/*"],
-      "@/utils/*": ["utils/*"]
+      "@/utils/*": ["utils/*"],
+      "@/themes/*": ["themes/*"],
+      "@/styles/*": ["styles/*"]
     }
   },
   "exclude": ["node_modules"],

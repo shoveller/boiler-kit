@@ -11,6 +11,9 @@ const Index: NextPage = () => {
         <li>
           <Link href="/i18n-example">다국어 리소스 활용 예제로 이동</Link>
         </li>
+        <li>
+          <Link href="/theme-example">테마 활용 예제로 이동</Link>
+        </li>
       </ul>
     </>
   )
