@@ -1,3 +1,3 @@
-const config = require('@shoveller/prettier-config')
+const config = require('@ssfrontend/prettier-config')
 
 module.exports = config

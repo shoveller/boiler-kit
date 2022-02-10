@@ -17,8 +17,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.17.0",
-    "@shoveller/eslint-config": "^0.0.4",
-    "@shoveller/prettier-config": "^0.0.4",
+    "@ssfrontend/eslint-config": "^0.0.6",
+    "@ssfrontend/prettier-config": "^0.0.6",
     "@storybook/addon-actions": "^6.4.18",
     "@storybook/addon-docs": "^6.4.18",
     "@storybook/addon-essentials": "^6.4.18",
