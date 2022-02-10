@@ -1,29 +1,14 @@
 import type { NextPage } from 'next'
-import { useTranslation } from 'next-i18next'
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import { GetServerSidePropsContext } from 'next/types'
-import i18nConfig from '../next-i18next.config'
-
-const TranslationTest = () => {
-  const { t } = useTranslation()
-  const label = t('home')
-
-  return <div>{label}</div>
-}
+import Link from 'next/link'
 
 const Index: NextPage = () => {
-  return <TranslationTest />
+  return (
+    <>
+      <ul>
+        <Link href="/i18n-example">다국어 리소스 활용 예제로 이동</Link>
+      </ul>
+    </>
+  )
 }
 
-export const getServerSideProps = async ({
-  locale = i18nConfig.i18n.defaultLocale,
-}: GetServerSidePropsContext) => {
-  const { _nextI18Next } = await serverSideTranslations(locale)
-
-  return {
-    props: {
-      _nextI18Next,
-    },
-  }
-}
 export default Index

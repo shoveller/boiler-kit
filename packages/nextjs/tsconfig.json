@@ -16,11 +16,12 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
+      "@/root/*": ["*"],
       "@/components/*": ["components/*"],
       "@/pages/*": ["pages/*"],
       "@/public/*": ["public/*"],
       "@/stories/*": ["stories/*"],
-      "@/styles/*": ["styles/*"]
+      "@/utils/*": ["utils/*"]
     }
   },
   "exclude": ["node_modules"],
