@@ -4,16 +4,5 @@
 // NOTE: This file should not be edited
 // see https://nextjs.org/docs/basic-features/typescript for more information.
 
-declare module '@/root/next-i18next.config' {
-  const defaultLocale: string
-  const locales: string[]
-
-  exports = {
-    defaultLocale,
-    locales,
-    i18n: {
-      defaultLocale,
-      locales,
-    },
-  }
-}
+// i18n next의 타입을 정의한 것
+/// <reference types="i18n" />
